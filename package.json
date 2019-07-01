@@ -1,16 +1,13 @@
 {
-  "name": "mask-helper",
+  "name": "mask-email-phone",
   "version": "1.0.0",
-  "description": "",
+  "description": "Module hides emails and phones from an input message",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r esm index.js"
+    "example": "nodemon example.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "esm": "^3.2.25"
-  },
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.19.1"
   }
