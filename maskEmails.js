@@ -1,5 +1,5 @@
-const extractEmails = require('../regExp/emails')
-const mask = require('./index')
+const extractEmails = require('./lib/regExp/emails')
+const mask = require('./lib/mask/index')
 
 module.exports = function maskEmails(input) {
 	const emails = extractEmails(input)

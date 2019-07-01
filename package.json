@@ -4,11 +4,12 @@
   "description": "Module hides emails and phones from an input message",
   "main": "index.js",
   "scripts": {
-    "example": "nodemon example.js"
+    "test": "mocha tests/*.test.js"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "mocha": "^6.1.4",
     "nodemon": "^1.19.1"
   }
 }

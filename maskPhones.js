@@ -1,5 +1,5 @@
-const extractPhones = require('../regExp/phones')
-const mask = require('./index')
+const extractPhones = require('./lib/regExp/phones')
+const mask = require('./lib/mask/index')
 
 module.exports = function maskPhones(input) {
 	const phones = extractPhones(input)
