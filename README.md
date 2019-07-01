@@ -7,6 +7,8 @@ Example:
 
 ```javascript
 
+const maskEmailsPhones = require('mask-email-phone')
+
 const input = `
 hey dude, maybe you can contact me later by email or phone.
 here is my 
@@ -22,9 +24,9 @@ Phone numbers:
 
 Fake telephone: 088`
 
-const maskEmailsPhones = require('maskEmailsPhones')
-
 const output = maskEmailsPhones(input)
+
+console.log(output)
 ```
 
 The `output` variable will be equal to: 
