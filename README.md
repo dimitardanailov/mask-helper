@@ -1,4 +1,4 @@
-Mask email and phone helper
+Mask email and phone
 ====
 
 Modules "hides" emails and phones.
@@ -27,7 +27,7 @@ const maskEmailsPhones = require('maskEmailsPhones')
 const output = maskEmailsPhones(input)
 ```
 
-The `output` variable will be equal to
+The `output` variable will be equal to: 
 
 ```javascript
 
