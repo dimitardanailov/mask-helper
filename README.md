@@ -25,7 +25,7 @@ Fake telephone: 088`
 const maskEmailsPhones = require('maskEmailsPhones')
 
 const output = maskEmailsPhones(input)
-```javascript
+```
 
 The `output` variable will be equal to
 
