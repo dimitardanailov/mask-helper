@@ -1,13 +1,34 @@
 {
   "name": "mask-email-phone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module hides emails and phones from an input message",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/*.test.js"
   },
-  "author": "",
+  "author": {
+    "name": "Dimitar Danailov",
+    "email": "dimityr.danailov@gmail.com",
+    "url": "https://github.com/dimitardanailov/ddanailov"
+  },
   "license": "MIT",
+  "engines": {
+    "node": ">= 4"
+  },
+  "keywords": [
+    "mask",
+    "mask-emails",
+    "mask-phones",
+    "mask-emails-phones",
+
+    "hide",
+    "hide-emails",
+    "hide-phones",
+    "hide-emails-phones",
+
+    "npm",
+    "javascript"
+  ],
   "devDependencies": {
     "mocha": "^6.1.4",
     "nodemon": "^1.19.1"
