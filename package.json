@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Module hides emails and phones from an input message",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimitardanailov/mask-helper.git"
+  },
   "scripts": {
     "test": "mocha tests/*.test.js"
   },
@@ -20,12 +24,10 @@
     "mask-emails",
     "mask-phones",
     "mask-emails-phones",
-
     "hide",
     "hide-emails",
     "hide-phones",
     "hide-emails-phones",
-
     "npm",
     "javascript"
   ],
